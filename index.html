@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-Main</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: #fff;
+        }
+
+        .header {
+            width: 100%;
+        }
+
+        ul {
+            margin-top: 10px;
+            float: right;
+            font-size: 13px;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            list-style: none;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        ul li a {
+            display: block;
+            padding: 8px 8px;
+            border-radius: 50px;
+            color: black;
+            text-decoration: none;
+
+        }
+
+        ul li a:hover {
+            background-color: #ffcd8c;
+            color: black;
+        }
+
+
+        .container {
+            width: 90%;
+            margin: 10px auto;
+            height: auto;
+            justify-items: center;
+            align-items: center;
+            /* border: 2px solid rgb(197, 197, 197); */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .section-2 {
+            /* border: 2px solid red; */
+            margin: 10px;
+            color: #0f6256;
+            /* clear: both; */
+        }
+
+        .section-2:after {
+            content: ' ';
+            display: block;
+            clear: both;
+        }
+
+        .left-side {
+            width: 50%;
+            height: 615px;
+            /* border: 2px solid blue; */
+            float: left;
+            font-size: 25px;
+            /* color: white; */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .right-side {
+            width: 48%;
+            height: 615px;
+            /* border: 2px solid green; */
+            float: right;
+            font-size: 40px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .articles {
+            background-image: url(./img.png);
+            object-fit: cover;
+            height: 615px;
+            width: 100%;
+            margin: 10px;
+            background-color: rgb(219, 125, 71);
+            border-radius: 5px;
+            float: right;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+       
+        .covid a {
+            text-decoration: none;
+            font-size: medium;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header" id="home">
+            <img src="./logo.png" alt="">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contect">Contact</a></li>
+                <li><a href="#register" style="background-color: 
+                    #ffcd8c; color: #000;">REGISTER</a></li>
+                <li><a href="#da" style="background-color: 
+                    #0f6256; color: #fff;">DOWNLOAD APP</a></li>
+            </ul>
+        </div>
+        <div class="section-2">
+            <div class="left-side">
+                <h1 class="main-content" style="font-size: 90px; margin-top: 0; margin-bottom: 10px;">Prevention of
+                    Covid-19</h1>
+                <p style="font-size: 15px;margin-bottom: 10px;">Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit.
+                    Fugiat voluptatibus
+                    illum id laborum,
+                    laboriosam odio cum eius explicabo ex unde?</p>
+
+                <div class="covid">
+                    <i class="fa fa-facebook"
+                        style=" padding-right: 10px; background-color: lightgreen; border-radius: 50%;"></i><a href="#"
+                        style="padding-left: 10px;">Wear a
+                        Mask</a><br>
+                    <i class="fa fa-facebook"
+                        style=" padding-right: 10px; background-color: lightgreen; border-radius: 50%;"></i><a
+                        href="#a style= padding-left: 10px;" bout">Social
+                        Distancing</a><br>
+                    <i class="fa fa-facebook"
+                        style=" padding-right: 10px; background-color: lightgreen; border-radius: 50%;"></i><a
+                        href="#s style= padding-left: 10px;" ervice">Stay at
+                        Home</a><br>
+                    <i class="fa fa-facebook"
+                        style=" padding-right: 10px; background-color: lightgreen; border-radius: 50%;"></i><a
+                        href="#b style= padding-left: 10px;" log">Wash your
+                        Hand</a><br>
+                    <i class="fa fa-facebook"
+                        style=" padding-right: 10px; background-color: lightgreen; border-radius: 50%;"></i><a
+                        href="#c style= padding-left: 10px;" ontect">Cover
+                        your
+                        Coughs</a><br>
+                </div>
+
+            </div>
+            <div class="right-side">
+                <div class="articles"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
